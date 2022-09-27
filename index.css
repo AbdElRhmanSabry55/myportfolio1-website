@@ -1,0 +1,217 @@
+*{
+        margin: 0%;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        background-color: aquamarine;
+}
+.parent{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0 0 20px;
+        justify-content: space-around;  
+        gap: 50px;
+        padding: 20px ;
+        text-align: center;
+}
+.parent .head p.website{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+  
+}
+.parent .head img.facebook{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: relative;
+        left: 120px;
+        bottom:35px;
+} 
+ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+}
+a{
+        text-decoration: none;
+        margin: 20px;
+        font-size: 20px;
+}
+p.ser,
+p.ab,
+p.sk,
+h1.co{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.services{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+}
+.services .serv1 p{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+}
+.services .serv1 img{
+        width: 300px;
+        height: 200px;
+        border-radius: 50px;
+}
+.about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+}
+.about p img.img2{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+}
+.about12,
+.about13,
+.about14{
+        border: 10px white solid;
+        height: 50px;
+        width: 500px;
+        border-radius: 50px;
+}
+.about12{
+        background-image: linear-gradient( to right,
+        rgb(27, 23, 255) 0%,rgb(27, 23, 255) 90%,rgb(255, 255, 255) 90%, white 100%);
+        }
+        .about13{
+        background-image: linear-gradient( to right,
+        rgb(27, 23, 255) 0%,rgb(27, 23, 255) 90%,rgb(255, 255, 255) 90%, white 100%);
+        }
+        .about14{
+        background-image: linear-gradient( to right,
+        rgb(27, 23, 255) 0%,rgb(27, 23, 255) 73%,rgb(255, 255, 255) 73%, white 100%);
+}
+.boxx{
+        direction: rtl;
+        margin-left:50px;
+        margin-top: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 15px;
+ 
+}
+.skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+}
+.skills img{
+        margin-top: 20px;
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+}
+.skills .web,
+.skills .graphic{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.13);
+        width: 400px;
+        height: 400px;
+        /* border-top-left-radius:100px ;
+        border-bottom-right-radius: 100px; */
+        border-radius: 50%;
+}
+.skills h1{
+        margin-bottom: 10px; 
+        background-color: transparent;
+}
+.skills h3{
+        background-color: transparent;
+}
+.cont,
+footer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        font-size: 20px;
+}
+.contact p.co{
+        text-align: center;
+        font-size: 18;
+}
+
+@media (max-width:435px) {
+ 
+     .skills h3{
+        background-color: transparent;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .parent .head img.facebook{
+        bottom: 55px;
+    } 
+    .skills .web,
+    .skills .graphic{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.13);
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    } 
+    a{
+        display: block;
+    }
+    ul{
+        margin-top: -100px;
+        display: block;      
+   } 
+
+}
+ @media (max-width:450px) {
+    .about .about1 h1,
+    .about .about1 h3,
+    .about .about1 h4{
+        font-weight: normal;
+        text-align: center;
+        font-size: 18px;
+    }
+    .about p img.img2{
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .about12,
+    .about13,
+    .about14{
+        border: 10px white solid;
+        height: 50px;
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+} 
+ @media (max-width:950px) {
+    .boxx{
+        margin-top: 0px;
+        margin: auto;
+       }
+       hr{
+        margin-top: 10px;
+       }
+} 
+@media (max-width:1205px) {
+    .boxx{
+        margin-top: 0px;
+       }
+    
+} 
